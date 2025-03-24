@@ -1,0 +1,70 @@
+.dashboard-container {
+  padding: 10px;
+}
+
+.dashboard-card {
+  transition: transform 0.3s, box-shadow 0.3s;
+  height: 100%;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(149, 23, 23, 0.607);
+}
+
+.card-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  color: rgb(228, 237, 237);
+  font-size: 1.5rem;
+}
+
+.bg-primary {
+  background-color: #2a64db;
+}
+
+.bg-success {
+  background-color: #28a745;
+}
+
+.bg-warning {
+  background-color: #ffc107;
+}
+
+.bg-info {
+  background-color: #17a2b8;
+}
+
+.bg-danger {
+  background-color: #dc3545;
+}
+
+.stat-card {
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(122, 67, 67, 0.1);
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.recent-activity {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.recent-activity-item {
+  padding: 15px;
+  border-bottom: 1px solid #bb1313;
+}
+
+.recent-activity-item:last-child {
+  border-bottom: none;
+}
+
+.dashboard-chart {
+  height: 300px;
+  margin-bottom: 20px;
+}
